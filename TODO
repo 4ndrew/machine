@@ -1,0 +1,9 @@
+/* $Id: TODO,v 1.1 2005/01/26 00:04:13 dron Exp $ */
+
+Added features:
+[+/-]   MACROS
+[+]     Port to win32 (MS Visual C++ 6.0)
+
+Comming soon:
+[?]     Support for different alphabets
+[?]     Small debugging interface (stack monitoring)

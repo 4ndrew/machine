@@ -1,0 +1,20 @@
+## Tuiring Machine
+#
+# THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS ``AS IS'' AND
+# ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+# IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+# ARE DISCLAIMED.
+#
+# Author: Andrew A. Porohin (dron)
+#  email: paa0101@mail.ru
+#
+# $Id: test4.macro2,v 1.1 2005/01/26 00:04:13 dron Exp $
+#
+# copy_to_right
+1
+5
+q50L q10R    # (X)
+q20R q11R    # (X+1)
+q31L q21R    # (X+2)
+q40L q31L    # (X+3)
+q01R q41L    # (X+4)
