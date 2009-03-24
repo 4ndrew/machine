@@ -12,7 +12,7 @@ int checkChar(const unsigned char ch, const unsigned char *alphabet) {
  */
 int loadRibbon(Ribbon *ribbon, const char *fileName,
                const unsigned char *alphabet) {
-  unsigned char buff = 0;
+  char buff = 0;
   ifstream input(fileName);
 
   if (input.fail()) {
@@ -26,8 +26,8 @@ int loadRibbon(Ribbon *ribbon, const char *fileName,
   while (!input.fail()) {
     input.read(&buff, 1);
     if (!input.fail()) {
-      if (checkChar(buff, alphabet)) {
-        ribbon->addElement(buff);
+      if (checkChar((unsigned char) buff, alphabet)) {
+        ribbon->addElement((unsigned char) buff);
       } else {
         cerr << "loadRibbon() failed: unexpected input char sequence: `"
              << ios::hex << (int) buff << ios::dec
