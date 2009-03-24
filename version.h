@@ -32,6 +32,6 @@
 #define _VERSION_H_
 
 /* version */
-const char *version = "3.1.1";
+const char *version = "3.1.2";
 
 #endif /* _VERSION_H_ */
