@@ -31,10 +31,12 @@
 #ifndef _RIBBON_H_
 #define _RIBBON_H_
 
-#include <iostream.h>
-#include <fstream.h>
+#include <iostream>
+#include <fstream>
 
 #include "ErrorCodes.h"
+
+using namespace std;
 
 /** Ribbon segment */
 struct s_ribbonseg {

@@ -31,14 +31,16 @@
 #ifndef _CMACHINE_H_
 #define _CMACHINE_H_
 
-#include <iostream.h>
-#include <fstream.h>
-#include <string.h>
+#include <iostream>
+#include <fstream>
+#include <string>
 
 #include <stdlib.h>
 
 #include "Ribbon.h"
 #include "ErrorCodes.h"
+
+using namespace std;
 
 /** Machine step structure.
  */

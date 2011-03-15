@@ -28,7 +28,7 @@
  * $Id: machine.cpp,v 1.1 2005/01/26 00:04:13 dron Exp $
  */
 
-#include <iostream.h>
+#include <iostream>
 
 #include <stdio.h>
 #include <stdarg.h>
@@ -39,6 +39,8 @@
 #include "CRibbon.h"
 #include "ErrorCodes.h"
 #include "version.h"
+
+using namespace std;
 
 /* Abnormal termination (handled exceptions) */
 void err(int, char *, ...);
